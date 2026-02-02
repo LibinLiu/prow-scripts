@@ -35,5 +35,5 @@ cd $krkn_loc
 cat io_hog_config.yaml
 cat $SCENARIO_FILE
 
-python3.9 run_kraken.py --config=io_hog_config.yaml -o /tmp/report.out
+python3.11 run_kraken.py --config=io_hog_config.yaml -o /tmp/report.out
 

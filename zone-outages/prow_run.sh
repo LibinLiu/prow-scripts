@@ -36,4 +36,4 @@ envsubst < config.yaml.template > /tmp/zone_config.yaml
 # Run Kraken
 cat /tmp/zone_outage.yaml
 cat /tmp/zone_config.yaml
-python3.9 $krn_loc/run_kraken.py --config=/tmp/zone_config.yaml -o /tmp/report.out
+python3.11 $krn_loc/run_kraken.py --config=/tmp/zone_config.yaml -o /tmp/report.out

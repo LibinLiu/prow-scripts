@@ -31,7 +31,7 @@ cat /tmp/pod_scenario.yaml
 
 TEST_VERSION=`oc version -o json | jq .openshiftVersion`
 
-python3.9 $krkn_loc/run_kraken.py --config=/tmp/pod_scenario_config.yaml \
+python3.11 $krkn_loc/run_kraken.py --config=/tmp/pod_scenario_config.yaml \
 -o /tmp/report.out \
 --junit-testcase "$JUNIT_TESTCASE" \
 --junit-testcase-path "$ARTIFACT_DIR" \

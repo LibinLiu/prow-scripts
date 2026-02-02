@@ -24,5 +24,5 @@ envsubst < config.yaml.template > /tmp/app_outages_config.yaml
 # Run Kraken
 cat /tmp/app_outages_config.yaml
 cat /tmp/app_outages.yaml
-python3.9 $krkn_loc/run_kraken.py --config=/tmp/app_outages_config.yaml -o /tmp/report.out
+python3.11 $krkn_loc/run_kraken.py --config=/tmp/app_outages_config.yaml -o /tmp/report.out
 
