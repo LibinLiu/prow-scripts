@@ -24,4 +24,4 @@ envsubst < config.yaml.template > /tmp/syn_flood_config.yaml
 
 # Run Kraken
 cat /tmp/syn_flood_config.yaml
-python3.9 $krkn_loc/run_kraken.py --config=/tmp/syn_flood_config.yaml -o /tmp/report.out 2>&1
+python3.11 $krkn_loc/run_kraken.py --config=/tmp/syn_flood_config.yaml -o /tmp/report.out 2>&1

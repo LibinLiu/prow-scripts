@@ -34,5 +34,5 @@ cd $krkn_loc
 cat config/memory_hog_config.yaml
 cat $SCENARIO_FILE
 
-python3.9 run_kraken.py --config=config/memory_hog_config.yaml -o /tmp/report.out
+python3.11 run_kraken.py --config=config/memory_hog_config.yaml -o /tmp/report.out
 

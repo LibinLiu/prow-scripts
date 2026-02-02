@@ -30,4 +30,4 @@ envsubst < config.yaml.template > /tmp/pod_network_scenario_config.yaml
 cat /tmp/pod_network_scenario_config.yaml
 cat /tmp/pod_network_scenario.yaml
 
-python3.9 $krn_loc/run_kraken.py --config=/tmp/pod_network_scenario_config.yaml -o /tmp/report.out
+python3.11 $krn_loc/run_kraken.py --config=/tmp/pod_network_scenario_config.yaml -o /tmp/report.out
